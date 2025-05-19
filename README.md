@@ -1,10 +1,10 @@
-# ខ្លាឃ្លោក (Klaklok) - Slot Machine Game
+# ខ្លាឃ្លោក (Khla Khlouk) - Slot Machine Game
 
 A modern slot machine game built with HTML, JavaScript, CSS, and Bootstrap 5.
 
 ## Description
 
-ខ្លាឃ្លោក (Klaklok) is an interactive slot machine game featuring traditional Khmer-themed images. The game provides an engaging experience with smooth animations and a responsive design.
+ខ្លាឃ្លោក (Khla Khlouk) is an interactive slot machine game featuring traditional Khmer-themed images. The game provides an engaging experience with smooth animations and a responsive design.
 
 ## Features
 
@@ -29,7 +29,7 @@ A modern slot machine game built with HTML, JavaScript, CSS, and Bootstrap 5.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Lyher99/Klaklok_game.git
+git clone https://github.com/Lyher99/Khla-Khlouk-Game.git
 ```
 
 2. Open `index.html` in your web browser
