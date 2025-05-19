@@ -29,7 +29,7 @@ A modern slot machine game built with HTML, JavaScript, CSS, and Bootstrap 5.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Lyher99/Klaklok_game.git
+git clone https://github.com/Lyher99/Khla-Khlouk-Game.git
 ```
 
 2. Open `index.html` in your web browser
