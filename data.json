@@ -1,0 +1,42 @@
+{
+    "title": "ខ្លាឃ្លោក",
+    "subtitle": "យើងមាន",
+    "images": [
+        {
+            "id": 1,
+            "src": "images/1.webp",
+            "alt": "Image 1",
+            "title": "ខ្លា"
+        },
+        {
+            "id": 2,
+            "src": "images/2.webp",
+            "alt": "Image 2",
+            "title": "ឃ្លោក"
+        },
+        {
+            "id": 3,
+            "src": "images/3.webp",
+            "alt": "Image 3",
+            "title": "មាន់"
+        },
+        {
+            "id": 4,
+            "src": "images/4.webp",
+            "alt": "Image 4",
+            "title": "បង្កង"
+        },
+        {
+            "id": 5,
+            "src": "images/5.webp",
+            "alt": "Image 5",
+            "title": "ក្តាម"
+        },
+        {
+            "id": 6,
+            "src": "images/6.webp",
+            "alt": "Image 6",
+            "title": "ត្រី"
+        }
+    ]
+} 
