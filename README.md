@@ -4,7 +4,7 @@ A modern slot machine game built with HTML, JavaScript, CSS, and Bootstrap 5.
 
 ## Description
 
-ខ្លាឃ្លោក (Klaklok) is an interactive slot machine game featuring traditional Khmer-themed images. The game provides an engaging experience with smooth animations and a responsive design.
+ខ្លាឃ្លោក (Khla Khlouk) is an interactive slot machine game featuring traditional Khmer-themed images. The game provides an engaging experience with smooth animations and a responsive design.
 
 ## Features
 
