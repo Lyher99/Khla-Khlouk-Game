@@ -70,7 +70,7 @@ This project is free to use, modify, and distribute, subject to the conditions i
 ## Author
 
 - **Hong Lyher** - *Developer*
-  - GitHub: [@HongLyher](https://github.com/HongLyher)
+  - GitHub: [@HongLyher](https://github.com/Lyher99)
 
 ## Credits
 
