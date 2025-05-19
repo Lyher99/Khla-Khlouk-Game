@@ -1,4 +1,4 @@
-# ខ្លាឃ្លោក (Klaklok) - Slot Machine Game
+# ខ្លាឃ្លោក (Khla Khlouk) - Slot Machine Game
 
 A modern slot machine game built with HTML, JavaScript, CSS, and Bootstrap 5.
 
