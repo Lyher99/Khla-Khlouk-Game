@@ -13,7 +13,6 @@ const reels = [
 // Sound elements
 const spinSound = document.getElementById('spinSound');
 const stopSound = document.getElementById('stopSound');
-const winSound = document.getElementById('winSound');
 const soundToggle = document.getElementById('soundToggle');
 let isMuted = false;
 
@@ -22,7 +21,6 @@ function toggleSound() {
     isMuted = !isMuted;
     spinSound.muted = isMuted;
     stopSound.muted = isMuted;
-    winSound.muted = isMuted;
     
     // Update icon
     const icon = soundToggle.querySelector('i');
@@ -103,20 +101,10 @@ function getRandomReel() {
     return Math.floor(Math.random() * gameData.images.length) + 1;
 }
 
-// Function to check if all reels match
-function checkWin(reels) {
-    return reels.every((val, i, arr) => val === arr[0]);
-}
-
 // Function to show result message
-function showResult(resultText, isWin = false) {
+function showResult(results) {
+    const resultText = results.map(num => gameData.images[num - 1].title).join(' - ');
     result.textContent = resultText;
-    result.className = isWin ? 'mt-4 h3 win' : 'mt-4 h3';
-    
-    // Play appropriate sound
-    if (isWin) {
-        playSound(winSound);
-    }
 }
 
 // Function to create a new image element
@@ -201,13 +189,8 @@ async function startGame() {
     // Wait a bit for the last reel to settle
     await new Promise(resolve => setTimeout(resolve, 500));
     
-    // Check for win using the final results
-    const isWin = checkWin(results);
-    
-    showResult(
-        isWin ? '🎉 JACKPOT! You Win! 🎉' : 'ម្តងទៀត',
-        isWin
-    );
+    // Show the results
+    showResult(results);
     
     // Re-enable spin button
     spinButton.disabled = false;

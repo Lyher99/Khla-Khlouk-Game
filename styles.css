@@ -61,18 +61,6 @@ body{
     font-weight: bold;
 }
 
-.win {
-    color: #2ecc71;
-    animation: winPulse 1s infinite;
-    will-change: transform;
-}
-
-@keyframes winPulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
-}
-
 .sliding {
     animation: slideDown 0.2s linear infinite;
     will-change: transform;
@@ -88,7 +76,7 @@ body{
 }
 
 /* Optimize animations for performance */
-.reel-container, .reel-img, #spinButton, .win, .sliding {
+.reel-container, .reel-img, #spinButton, .sliding {
     transform: translateZ(0);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
