@@ -4,7 +4,7 @@ A modern slot machine game built with HTML, JavaScript, CSS, and Bootstrap 5.
 
 ## Description
 
-ខ្លាឃ្លោក (Khla Khlouk) is an interactive slot machine game featuring traditional Khmer-themed images. The game provides an engaging experience with smooth animations and a responsive design.
+ខ្លាឃ្លោក (Khla Khlouk) is an interactive slot machine game featuring traditional Khmer-themed images. The game provides an engaging experience with smooth animations and a responsive design, focusing on the spinning experience and displaying results.
 
 ## Features
 
@@ -14,8 +14,8 @@ A modern slot machine game built with HTML, JavaScript, CSS, and Bootstrap 5.
 - Khmer language support
 - Mobile-friendly design
 - Random stop feature for each reel
-- Win detection system
-- Sound effects for spinning, stopping, and winning
+- Sound effects for spinning and stopping
+- Displays image names after each spin
 
 ## Technologies Used
 
@@ -38,8 +38,7 @@ git clone https://github.com/Lyher99/Khla-Khlouk-Game.git
 
 1. Click the "ចាក់" (Spin) button to start the game
 2. Three reels will spin with different durations
-3. Match all three reels to win
-4. The game will automatically detect wins and display the result
+3. After spinning, the game will display the names of the images that appear on the reels
 
 ## Project Structure
 
@@ -50,8 +49,7 @@ git clone https://github.com/Lyher99/Khla-Khlouk-Game.git
 ├── data.json           # Game data and configurations
 ├── sounds/            # Game sound effects
 │   ├── spin.mp3
-│   ├── stop.mp3
-│   └── win.mp3
+│   └── stop.mp3
 └── images/            # Game images
     ├── 1.webp
     ├── 2.webp
